@@ -94,22 +94,22 @@ attbenmix
 In this set of dataframes, each dataframe is a mix of one attack and some benign data. First 70% of available data of the attack and first 0.05% of the available benign data are mixed. Only 0.05% of benign data is used as benign data is of large size. 
 
 <table><tr><th valign="top">Dataframe </th><th valign="top">Available data </th><th valign="top">Value Counts </th></tr>
-<tr><td rowspan="2" valign="top">`  `Bot.csv : (323198, 76) </td><td valign="top">`  `Bot </td><td valign="top">200333 </td></tr>
-<tr><td valign="top">`  `Benign </td><td valign="top">122865 </td></tr>
-<tr><td rowspan="2" valign="top">`  `DDOS attack-HOIC.csv :(603073, 76) </td><td valign="top">`  `DDOS attack-HOIC </td><td valign="top">480208 </td></tr>
-<tr><td valign="top">`  `Benign </td><td valign="top">122865 </td></tr>
-<tr><td rowspan="2" valign="top">`  `DDoS attacks-LOIC-HTTP.csv : (526198, 76) </td><td valign="top">`  `DDoS attacks-LOIC-HTTP </td><td valign="top">403333 </td></tr>
-<tr><td valign="top">`  `Benign </td><td valign="top">122865 </td></tr>
-<tr><td rowspan="2" valign="top">`  `DoS attacks-Hulk.csv : (446203, 76) </td><td valign="top">`  `DoS attacks-Hulk </td><td valign="top">323338 </td></tr>
-<tr><td valign="top">`  `Benign </td><td valign="top">122865 </td></tr>
-<tr><td rowspan="2" valign="top"><p>`  `DoS attacks-SlowHTTPTest.csv : </p><p>`  `(220788, 76) </p></td><td valign="top">`  `DoS attacks-SlowHTTPTest </td><td valign="top">97923 </td></tr>
-<tr><td valign="top">`  `Benign </td><td valign="top">122865 </td></tr>
-<tr><td rowspan="2" valign="top">`  `FTP-BruteForce.csv : (258212, 76) </td><td valign="top">`  `FTP-BruteForce </td><td valign="top">135347 </td></tr>
-<tr><td valign="top">`  `Benign </td><td valign="top">122865 </td></tr>
-<tr><td rowspan="2" valign="top">`  `Infilteration.csv : (235382, 76) </td><td valign="top">`  `Infiltration </td><td valign="top">112517 </td></tr>
-<tr><td valign="top">`  `Benign </td><td valign="top">122865 </td></tr>
-<tr><td rowspan="2" valign="top">`  `SSH-Bruteforce.csv : (254177, 76)            </td><td valign="top">`  `SSH-Bruteforce </td><td valign="top">131312 </td></tr>
-<tr><td valign="top">`  `Benign </td><td valign="top">122865 </td></tr>
+<tr><td rowspan="2" valign="top">Bot.csv : (323198, 76) </td><td valign="top">Bot </td><td valign="top">200333 </td></tr>
+<tr><td valign="top">Benign </td><td valign="top">122865 </td></tr>
+<tr><td rowspan="2" valign="top">DDOS attack-HOIC.csv :(603073, 76) </td><td valign="top">DDOS attack-HOIC </td><td valign="top">480208 </td></tr>
+<tr><td valign="top">Benign </td><td valign="top">122865 </td></tr>
+<tr><td rowspan="2" valign="top">DDoS attacks-LOIC-HTTP.csv : (526198, 76) </td><td valign="top">DDoS attacks-LOIC-HTTP </td><td valign="top">403333 </td></tr>
+<tr><td valign="top">Benign </td><td valign="top">122865 </td></tr>
+<tr><td rowspan="2" valign="top">DoS attacks-Hulk.csv : (446203, 76) </td><td valign="top">DoS attacks-Hulk </td><td valign="top">323338 </td></tr>
+<tr><td valign="top">Benign </td><td valign="top">122865 </td></tr>
+<tr><td rowspan="2" valign="top"><p>DoS attacks-SlowHTTPTest.csv : </p><p>(220788, 76) </p></td><td valign="top">DoS attacks-SlowHTTPTest </td><td valign="top">97923 </td></tr>
+<tr><td valign="top">Benign </td><td valign="top">122865 </td></tr>
+<tr><td rowspan="2" valign="top">FTP-BruteForce.csv : (258212, 76) </td><td valign="top">FTP-BruteForce </td><td valign="top">135347 </td></tr>
+<tr><td valign="top">Benign </td><td valign="top">122865 </td></tr>
+<tr><td rowspan="2" valign="top">Infilteration.csv : (235382, 76) </td><td valign="top">Infiltration </td><td valign="top">112517 </td></tr>
+<tr><td valign="top">Benign </td><td valign="top">122865 </td></tr>
+<tr><td rowspan="2" valign="top">SSH-Bruteforce.csv : (254177, 76)            </td><td valign="top">SSH-Bruteforce </td><td valign="top">131312 </td></tr>
+<tr><td valign="top">Benign </td><td valign="top">122865 </td></tr>
 </table>
 
 
