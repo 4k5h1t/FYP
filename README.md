@@ -60,7 +60,7 @@ Following columns are the input to the model:
 
 All data is combined to a single dataframe and then is fit and scaled using Standard Scaler.  
 
-Selected Attacks (Size > 100000): 
+### Selected Attacks (Size > 100000): 
 
 - Bot 
 - DDOS attack-HOIC 
@@ -71,7 +71,7 @@ Selected Attacks (Size > 100000):
 - Infilteration 
 - SSH-Bruteforce 
 
-Not Selected Attacks: 
+### Not Selected Attacks: 
 
 - Brute Force -Web 
 - Brute Force -XSS 
@@ -80,7 +80,7 @@ Not Selected Attacks:
 - DoS attacks-Slowloris 
 - SQL Injection 
 
-Various sets of dataframes are created: 
+### Various sets of dataframes are created: 
 
 - attbenmix 
 - selectedattackbenmix 
@@ -89,7 +89,7 @@ Various sets of dataframes are created:
 - test\_loader 
 
 
-attbenmix 
+### attbenmix 
 
 In this set of dataframes, each dataframe is a mix of one attack and some benign data. First 70% of available data of the attack and first 0.05% of the available benign data are mixed. Only 0.05% of benign data is used as benign data is of large size. 
 
@@ -114,19 +114,19 @@ In this set of dataframes, each dataframe is a mix of one attack and some benign
 
 
 
-selectedattackbenmix 
+### selectedattackbenmix 
 
 This dataframe contains all selected attacks and benign data in equal numbers. The last 100000 rows of all selected attack data and benign data are combined to create this dataframe. 
 
-notselectedattackbenmix 
+### notselectedattackbenmix 
 
 This dataframe contains all attack data that are not selected and benign data in equal numbers. The last 87 rows of all not selected attack data and benign data are combined to create this dataframe. Only 87 rows are selected, as in the set of not selected attack data, the attack data that has the least available data has only 87 rows. 
 
-train\_loader 
+### train\_loader 
 
 In this set of dataframes, each dataframe contains the first 90% of one attack data. Only selected attack data is used. This set of dataframes is used to train the models. 
 
-test\_loader 
+### test\_loader 
 
 In this set of dataframes, each dataframe contains the last 10% of one attack data. Only selected attack data is used. 
 
@@ -136,7 +136,7 @@ In this set of dataframes, each dataframe contains the last 10% of one attack da
 
 
 ## <a name="_a5jidex4ybp1"></a>Auto-encoder Model
-## <a name="_qi8u0h4xgpi1"></a>The autoencoder model implemented in the provided code is a deep autoencoder with a symmetric architecture for encoding and decoding. The architecture consists of fully connected (linear) layers with hyperbolic tangent (Tanh) activation functions. The purpose of the autoencoder is to perform dimensionality reduction and reconstruction of the input data. Here is a detailed description of the architecture:
+The autoencoder model implemented in the provided code is a deep autoencoder with a symmetric architecture for encoding and decoding. The architecture consists of fully connected (linear) layers with hyperbolic tangent (Tanh) activation functions. The purpose of the autoencoder is to perform dimensionality reduction and reconstruction of the input data. Here is a detailed description of the architecture:
 ### <a name="_5rn035jvkqz"></a>AEModel Class
 - Parameters:
   - input\_dim: Dimensionality of the input data.
