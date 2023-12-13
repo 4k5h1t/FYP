@@ -19,12 +19,12 @@ We are using the IDS2018 network attack dataset.
 - [x] Assess accuracy of each client separately (before federated averaging), on the attaqck it is trained for as well as on different attacks.
 - [x] Perform Federated Averaging and assess accuracy again.
 - [x] Create a separate test file containing mixed attack data and assess accuracy.
+
+## Phase 2
 - [ ] Research Multiclass Autoencoders.
 - [ ] Implement Multiclass Autoencoder at client level and assess effectiveness.
 - [ ] Perform Federated averaging with implemented base multiclass autoencoder.
 - [ ] Assess results and improve.
-
-## Phase 2
 - [ ] Research Machine Unlearning
 - [ ] Implement Unlearning (wrongly train one client and attempt to unlearn)
 - [ ] Assess results and improve. 
