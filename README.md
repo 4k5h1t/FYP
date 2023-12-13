@@ -104,7 +104,7 @@ In this set of dataframes, each dataframe is a mix of one attack and some benign
 <tr><td valign="top">Benign </td><td valign="top">122865 </td></tr>
 <tr><td rowspan="2" valign="top">DoS attacks-Hulk.csv : (446203, 76) </td><td valign="top">DoS attacks-Hulk </td><td valign="top">323338 </td></tr>
 <tr><td valign="top">Benign </td><td valign="top">122865 </td></tr>
-<tr><td rowspan="2" valign="top"><p>DoS attacks-SlowHTTPTest.csv : </p><p>(220788, 76) </p></td><td valign="top">DoS attacks-SlowHTTPTest </td><td valign="top">97923 </td></tr>
+<tr><td rowspan="2" valign="top"><p>DoS attacks-SlowHTTPTest.csv : (220788, 76) </p></td><td valign="top">DoS attacks-SlowHTTPTest </td><td valign="top">97923 </td></tr>
 <tr><td valign="top">Benign </td><td valign="top">122865 </td></tr>
 <tr><td rowspan="2" valign="top">FTP-BruteForce.csv : (258212, 76) </td><td valign="top">FTP-BruteForce </td><td valign="top">135347 </td></tr>
 <tr><td valign="top">Benign </td><td valign="top">122865 </td></tr>
