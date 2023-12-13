@@ -29,13 +29,9 @@ We are using the IDS2018 network attack dataset.
 - [ ] Implement Unlearning (wrongly train one client and attempt to unlearn)
 - [ ] Assess results and improve. 
 
-## Documentation
-<a name="_dl0t6199qwbb"></a>**Final Year Project - Federated Learning** 
+# Documentation
 
-<a name="_qrp3qdvx1uhk"></a>**Code Documentation**
-
-Dataset 
-
+## Dataset 
 Base dataset: IDS 2018 
 
 Following columns are the input to the model: 
