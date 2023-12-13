@@ -89,7 +89,7 @@ All data is combined to a single dataframe and then is fit and scaled using Stan
 - test\_loader 
 
 
-### attbenmix 
+### 1. attbenmix 
 
 In this set of dataframes, each dataframe is a mix of one attack and some benign data. First 70% of available data of the attack and first 0.05% of the available benign data are mixed. Only 0.05% of benign data is used as benign data is of large size. 
 
@@ -114,19 +114,19 @@ In this set of dataframes, each dataframe is a mix of one attack and some benign
 
 
 
-### selectedattackbenmix 
+### 2. selectedattackbenmix 
 
 This dataframe contains all selected attacks and benign data in equal numbers. The last 100000 rows of all selected attack data and benign data are combined to create this dataframe. 
 
-### notselectedattackbenmix 
+### 3. notselectedattackbenmix 
 
 This dataframe contains all attack data that are not selected and benign data in equal numbers. The last 87 rows of all not selected attack data and benign data are combined to create this dataframe. Only 87 rows are selected, as in the set of not selected attack data, the attack data that has the least available data has only 87 rows. 
 
-### train\_loader 
+### 4. train\_loader 
 
 In this set of dataframes, each dataframe contains the first 90% of one attack data. Only selected attack data is used. This set of dataframes is used to train the models. 
 
-### test\_loader 
+### 5. test\_loader 
 
 In this set of dataframes, each dataframe contains the last 10% of one attack data. Only selected attack data is used. 
 
