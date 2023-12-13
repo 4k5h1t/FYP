@@ -44,21 +44,21 @@ Following columns are the input to the model:
 
 |Data |Size |
 | :-: | :-: |
-|` `Bot |286191 |
-|` `DDOS attack-HOIC |686012 |
-|` `DDoS attacks-LOIC-HTTP |576191 |
-|` `DoS attacks-Hulk |461912 |
-|` `DoS attacks-SlowHTTPTest |139890 |
-|` `FTP-BruteForce |193354 |
-|` `Infilteration |160739 |
-|` `SSH-Bruteforce |187589 |
-|` `Brute Force -Web |611 |
-|` `Brute Force -XSS |230 |
-|` `DDOS attack-LOIC-UDP |1730 |
-|` `DoS attacks-GoldenEye |41508 |
-|` `DoS attacks-Slowloris |10990 |
-|` `SQL Injection |87 |
-|` `Benign (Taken from the .csv file Divya mam provided) |2457307 |
+|Bot |286191 |
+|DDOS attack-HOIC |686012 |
+|DDoS attacks-LOIC-HTTP |576191 |
+|DoS attacks-Hulk |461912 |
+|DoS attacks-SlowHTTPTest |139890 |
+|FTP-BruteForce |193354 |
+|Infilteration |160739 |
+|SSH-Bruteforce |187589 |
+|Brute Force -Web |611 |
+|Brute Force -XSS |230 |
+|DDOS attack-LOIC-UDP |1730 |
+|DoS attacks-GoldenEye |41508 |
+|DoS attacks-Slowloris |10990 |
+|SQL Injection |87 |
+|Benign (Taken from the .csv file Divya mam provided) |2457307 |
 
 
 
