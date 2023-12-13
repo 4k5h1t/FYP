@@ -21,7 +21,7 @@ We are using the IDS2018 network attack dataset.
 - [x] Create a separate test file containing mixed attack data and assess accuracy.
 
 ## Phase 2
-- [ ] Research Multiclass Autoencoders.
+- [ ] Research Multiclass Autoencoders to improve performance.
 - [ ] Implement Multiclass Autoencoder at client level and assess effectiveness.
 - [ ] Perform Federated averaging with implemented base multiclass autoencoder.
 - [ ] Assess results and improve.
