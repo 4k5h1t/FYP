@@ -25,9 +25,8 @@ We are using the IDS2018 network attack dataset.
 - [ ] Implement Multiclass Autoencoder at client level and assess effectiveness.
 - [ ] Perform Federated averaging with implemented base multiclass autoencoder.
 - [ ] Assess results and improve.
-- [ ] Research Machine Unlearning
-- [ ] Implement Unlearning (wrongly train one client and attempt to unlearn)
-- [ ] Assess results and improve. 
+- [ ] Implement SoftMax
+- [ ] Use encoded layer from each client to train global model
 
 # Documentation
 
